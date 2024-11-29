@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+                                            <!--! Nav bar -->
+
+        <navbar class="sticky top-0">
+            <div class="navbar container  pl-4 pr-4 bg-white mx-auto bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    </div>
+                    <ul class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li>
+                            <a>Product</a>
+                            <ul class="p-2">
+                                <li><a>Latest Products</a></li>
+                                <li><a>Discount Offers</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                    </div>
+                    <a href="#"><img src="./images/Beige Modern Fashion Logo.png" class=" h-[100px] w-[100px]" alt="logo"></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li>
+                            <details>
+                                <summary>Product</summary>
+                                <ul class="p-2">
+                                    <li><a>Latest Product</a></li>
+                                    <li><a>Discount Offer</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end gap-2 search-box">
+                    <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                    <div class="avatar">
+                        <div class="w-14  rounded-full">
+                            <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" class="w-20 h-20" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </navbar>
+                        <!-- !Navbar finished -->
+    <section class="container">
+        <div class="bg-gray-100 min-h-screen flex items-center">
+            <div class="container mx-auto px-6 lg:px-20 flex flex-wrap lg:flex-nowrap items-center">
+                <!-- Left Section: Text -->
+                <div class="w-full lg:w-1/2 text-center lg:text-left">
+                    <h1 class="text-4xl lg:text-6xl font-bold text-gray-800 leading-tight">
+                        Discover Your Style Shop the <span class="text-yellow-500">Latest Trends</span>
+                    </h1>
+                    <p class="mt-6 text-gray-600 text-lg">
+                        Find the perfect look for every occasion with our wide range of fashionable apparel, accessories, and more. Enjoy exclusive offers and hassle-free shopping!
+                    </p>
+                    <div class="mt-8">
+                        <a href="#learn-more" class="px-6 py-3 bg-yellow-500 text-white                 font-semibold rounded-lg shadow-md hover:bg-yellow-600 transition           duration-300">
+                            Shop Now
+                        </a>
+                        <a href="#features" class="ml-4 px-6 py-3 bg-white border border-yellow-500 text-yellow-500 font-semibold rounded-lg shadow-md hover:bg-yellow-500 hover:text-white transition duration-300">
+                            Explore Offers
+                        </a>
+                    </div>
+                </div>
+                <!-- Right Section: Image -->
+                <div class="w-full lg:w-1/2 mt-10 lg:mt-0">
+                    <img src="./images/hero image.png" alt="Hero Section Image" class="w-full rounded-lg shadow-lg"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Categories  Section-->
+    <section class="categories">
+        <div class="bg-white  py-10">
+            <h1 class="text-center font-bold text-yellow-400 text-[40px] py-6">Categories</h1>
+            <div class="container mx-auto px-6">
+              <!-- Categories Section -->
+              <div class="md:flex flex-wrap justify-center gap-6">
+                <div class="flex items-center  mx-auto justify-between w-60 h-20 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-lg shadow-md px-4">
+                  <h3 class="text-white text-lg font-semibold">Women's Fashion</h3>
+                  <img src="./images/women's.png" alt="women's" class="w-20 h-20" />
+                </div>
+                <div class="flex mx-auto items-center justify-between w-60 h-20 bg-gradient-to-r from-pink-500 to-pink-400 rounded-lg shadow-md px-4">
+                  <h3 class="text-white text-lg font-semibold">Man's Fashion</h3>
+                  <img src="./images/man's.png" alt="men's" class="w-20 h-20" />
+                </div>
+                <div class="flex mx-auto items-center justify-between w-60 h-20 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-lg shadow-md px-4">
+                  <h3 class="text-white text-lg font-semibold">Child Fashion</h3>
+                  <img src="./images/child.png" alt="child" class="w-20 h-20" />
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- This is another section -->
+    <section class="popular-dresses">
+        <div class="bg-gray-100 py-8">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div class="flex items-center justify-between mb-6">
+                <h2 class="text-2xl font-bold text-gray-900">Popular Dresses</h2>
+                <a href="#" class="text-yellow-500 text-sm font-medium hover:underline">See All</a>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- women's dress card 1 -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                  <img
+                    src="./images/women dress.png"
+                    alt="Reebok Dart Men's Shoes"
+                    class="w-full h-40 object-contain mb-4"
+                  />
+                  <h3 class="text-lg font-semibold text-gray-800 mb-2">Pink Georgette Embroidery Semi Stitched Party Dress for Women | </h3>
+                  <p class="text-sm text-gray-500 mb-4">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                  </p>
+                  <div class="flex items-center justify-between">
+                    <p class="text-xl font-bold text-gray-900">$1289</p>
+                    <button
+                      class="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800 flex items-center"
+                    >
+                      BUY NOW <span class="ml-2">&rarr;</span>
+                    </button>
+                  </div>
+                </div>
+        
+                <!-- men's dress card 2 -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                  <img
+                    src="./images/men's dress.png"
+                    alt="Reebok Pump"
+                    class="w-full h-40 object-contain mb-4"
+                  />
+                  <h3 class="text-lg font-semibold text-gray-800 mb-2">Wearing Dress। Men's Styling Dresss। Formal Dress।</h3>
+                  <p class="text-sm text-gray-500 mb-4">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                  </p>
+                  <div class="flex items-center justify-between">
+                    <p class="text-xl font-bold text-gray-900">$799</p>
+                    <button
+                      class="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800 flex items-center"
+                    >
+                      BUY NOW <span class="ml-2">&rarr;</span>
+                    </button>
+                  </div>
+                </div>
+        
+                <!-- Shoe Card 3 -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                  <img
+                    src="./images/child images.png"
+                    alt="Reebok All Terrain"
+                    class="w-full h-40 object-contain mb-4"
+                  />
+                  <h3 class="text-lg font-semibold text-gray-800 mb-2">Tartan Plaid ! – childrens clothing smocked heirloom bishop gowns</h3>
+                  <p class="text-sm text-gray-500 mb-4">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                  </p>
+                  <div class="flex items-center justify-between">
+                    <p class="text-xl font-bold text-gray-900">$699</p>
+                    <button
+                      class="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800 flex items-center"
+                    >
+                      BUY NOW <span class="ml-2">&rarr;</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- This is another section -->
+    <section class="popular-sneakers">
+        <div class="bg-gray-100 py-8">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div class="flex items-center justify-between mb-6">
+                <h2 class="text-2xl font-bold text-gray-900">Popular Sneakers</h2>
+                <a href="#" class="text-yellow-500 text-sm font-medium hover:underline">See All</a>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- women's dress card 1 -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                  <img
+                    src="./images/women's sneakers.png"
+                    alt="Reebok Dart Men's Shoes"
+                    class="w-full h-40 object-contain mb-4"
+                  />
+                  <h3 class="text-lg font-semibold text-gray-800 mb-2">Buy DIGITUS CRUCIS Women's Sneakers Stylish Walking Gym Sports Shoe | </h3>
+                  <p class="text-sm text-gray-500 mb-4">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                  </p>
+                  <div class="flex items-center justify-between">
+                    <p class="text-xl font-bold text-gray-900">$1289</p>
+                    <button
+                      class="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800 flex items-center"
+                    >
+                      BUY NOW <span class="ml-2">&rarr;</span>
+                    </button>
+                  </div>
+                </div>
+        
+                <!-- men's dress card 2 -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                  <img
+                    src="./images/man's sneakers.png"
+                    alt="Reebok Pump"
+                    class="w-full h-40 object-contain mb-4"
+                  />
+                  <h3 class="text-lg font-semibold text-gray-800 mb-2">Stylish Men's Thick Base High Tops | Casual Sneakers।</h3>
+                  <p class="text-sm text-gray-500 mb-4">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                  </p>
+                  <div class="flex items-center justify-between">
+                    <p class="text-xl font-bold text-gray-900">$799</p>
+                    <button
+                      class="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800 flex items-center"
+                    >
+                      BUY NOW <span class="ml-2">&rarr;</span>
+                    </button>
+                  </div>
+                </div>
+        
+                <!-- Shoe Card 3 -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                  <img
+                    src="./images/child sneakers.png"
+                    alt="Reebok All Terrain"
+                    class="w-full h-40 object-contain mb-4"
+                  />
+                  <h3 class="text-lg font-semibold text-gray-800 mb-2"> Online Shopping for Baby and Kids Products।</h3>
+                  <p class="text-sm text-gray-500 mb-4">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                  </p>
+                  <div class="flex items-center justify-between">
+                    <p class="text-xl font-bold text-gray-900">$699</p>
+                    <button
+                      class="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800 flex items-center"
+                    >
+                      BUY NOW <span class="ml-2">&rarr;</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+      
+      <!-- last search section -->
+      <section class="search-section">
+          <div class="flex justify-center items-center  bg-gray-100">
+            <div class="w-full max-w-md p-8 bg-pink-50 rounded-lg shadow-lg">
+              <h2 class="text-2xl font-bold text-center text-gray-800">LET'S STAY IN TOUCH</h2>
+              <p class="text-sm text-center text-gray-600 mb-4">
+                Get updates on sales specials and more
+              </p>
+              <form class="flex justify-center">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="w-full p-3 rounded-l-lg text-gray-700 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-500"
+                />
+                <button
+                  type="submit"
+                  class="bg-pink-500 text-white px-6 py-3 rounded-r-lg hover:bg-pink-600 focus:ring-2 focus:ring-pink-400"
+                >
+                  Send
+                </button>
+              </form>
+            </div>
+          </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer py-6 bg-base-200 text-base-content p-10">
+        <aside>
+         <img src="./images/Beige Modern Fashion Logo.png" class="h-[80] w-[80px]" alt="">
+          <p>
+            ACME Industries Ltd.
+            <br />
+            Providing reliable tech since 1992
+          </p>
+        </aside>
+        <nav>
+          <h6 class="footer-title">Services</h6>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Company</h6>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Legal</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+      </footer>
+
+</body>
+</html>
